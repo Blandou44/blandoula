@@ -167,6 +167,18 @@ const IndexPage = () => {
           <button type="submit">Send</button>
         </p>
       </form>
+      <form name="test 2" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="test 2" />
+        <div>
+          <label>Your Email:</label>
+          <input type="email" name="email" />
+        </div>
+        <div>
+          <label>Message:</label>
+          <textarea name="message" />
+        </div>
+        <button type="submit">Send</button>
+      </form>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time.{" "}
